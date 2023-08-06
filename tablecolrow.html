@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table col row</title>
+  </head>
+  <body>
+    <!-- tabel 3 x 3  -->
+    <table border="1" cellpadding="10" cellspacing="0">
+      <tr>
+        <td colspan="2">1.1 || 1.2</td>
+        <td>1.3</td>
+      </tr>
+      <tr>
+        <td>2.1</td>
+        <td>2.2</td>
+        <td rowspan="2">
+          2.3 <br />
+          ---- <br />
+          3.3
+        </td>
+      </tr>
+      <tr>
+        <td>3.1</td>
+        <td>3.2</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- tabel 4 x 4 -->
+    <table border="1" cellpadding="10" cellspacing="0">
+      <tr>
+        <td colspan="2" rowspan="2">
+          1.1 || 1.2 <br />
+          -----------
+          <br />
+          2.1 || 2.2
+        </td>
+        <td>1.3</td>
+        <td>1.4</td>
+      </tr>
+      <tr>
+        <td>2.3</td>
+        <td>2.4</td>
+      </tr>
+      <tr>
+        <td>3.1</td>
+        <td>3.2</td>
+        <td>3.3</td>
+        <td>3.4</td>
+      </tr>
+      <tr>
+        <td colspan="4">4.1 || 4.2 || 4.3 || 4.4</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- tabel 5 x 4 -->
+    <table border="1" cellpadding="10" cellspacing="0">
+      <tr>
+        <td colspan="2" rowspan="3">
+          1.1 || 1.2 <br />
+          ----------- <br />
+          2.1 || 2.2 <br />
+          ----------- <br />
+          3.1 || 3.2 <br />
+          ----------- <br />
+        </td>
+        <td>1.3</td>
+        <td colspan="2" rowspan="2">
+          1.4 || 1.5 <br />
+          ----------- <br />
+          2.4 || 2.5
+        </td>
+      </tr>
+      <tr>
+        <td>2.3</td>
+      </tr>
+      <tr>
+        <td>3.3</td>
+        <td>3.4</td>
+        <td>3.5</td>
+      </tr>
+      <tr>
+        <td>4.1</td>
+        <td>4.2</td>
+        <td>4.3</td>
+        <td colspan="2">4.4 || 4.5</td>
+      </tr>
+    </table>
+  </body>
+</html>
